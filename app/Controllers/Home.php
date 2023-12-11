@@ -30,6 +30,8 @@ class Home extends BaseController
         return $this->response->setJson($cliente);
     }
     
+
+    
     public function verBartender() {
         $nombres = ['Alejandro', 'Elena', 'Gabriel', 'Laura'];
         $apellidos = ['Martínez', 'Gómez', 'Hernández', 'Pérez'];
